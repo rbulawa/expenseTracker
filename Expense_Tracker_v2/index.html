@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <title>ExpanseTracker</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/package-icon.png"/>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <section class="hero-section">
+            <h1 class="title">
+                <span class="title-accent">Expense</span>Tracker
+            </h1>
+            <img src="img/package-icon.png" alt="package icon">
+        </section>
+
+        <section class="saldo">
+            <p class="saldo-text">Saldo:</p>
+            <p id="currentSaldo">263,87 PLN</p>
+        </section>
+
+        <section class="buttons">
+            <button id="awaiting-btn" class="btn active-btn" >Zamówione</button>
+            <button id="return-btn" class="btn">Do oddania</button>
+            <button id="send-btn" class="btn">Oddane</button>
+        </section>
+
+        <section>
+            <div class="info-tab">
+                <p>Przesyłki w drodze</p>
+            </div>
+        </section>
+
+
+        <section class="order-columns">
+            <div class="shop-logo col-1">
+                <img src="img/NaGo-logo.png" alt="Reserved Logo">
+            </div>
+            <div class="order-details col-2">
+                <p class="order-title">Koszula i spodnie</p>
+                <p class="order-date">05.05.2021</p>
+            </div>   
+            <div class="order-details col-3">
+                <p class="order-price">288,98 PLN</p>
+                <p class="status">w drodze</p>
+            </div>
+            <div id="utilities-icons" class="order-details col-1 hidden">
+                <img src="img/edit.svg" alt="Edit" width="16px">
+                <img src="img/delete.svg" alt="Delete" width="16px">
+            </div>
+
+        </section>
+
+        <section class="order-columns">
+            <div class="shop-logo col-1">
+                <img src="img/zalando.svg" alt="Reserved Logo">
+            </div>
+            <div class="order-details col-2">
+                <p class="order-title ">Koszula, spódnica i buty i jeszcze pierdołi do tego</p>
+                <p class="order-date">27.04.2021</p>
+            </div>   
+            <div class="order-details col-3">
+                <p class="order-price">1,288,98 PLN</p>
+                <p class="status">w drodze</p>
+            </div>
+        </section>
+
+        <section class="order-columns">
+            <div class="shop-logo col-1">
+                <img src="img/logo-reserved.svg" alt="Reserved Logo">
+            </div>
+            <div class="order-details col-2">
+                <p class="order-title">Majciochy i inne takie skarpetałki</p>
+                <p class="order-date">15.03.2021</p>
+            </div>   
+            <div class="order-details col-3">
+                <p class="order-price">88,98 PLN</p>
+                <p class="status">w drodze</p>
+            </div>
+            
+        </section>
+
+        <section class="order-columns">
+            <div class="shop-logo col-1">
+                <img src="img/H&M-Logo.svg" alt="Reserved">
+            </div>
+            <div class="order-details col-2">
+                <p class="order-title">Majciochy i inne takie skarpetałki</p>
+                <p class="order-date">09.02.2021</p>
+            </div>   
+            <div class="order-details col-3">
+                <p class="order-price">88,98 PLN</p>
+                <p class="status">w drodze</p>
+            </div>
+            
+        </section>
+
+        <section class="order-columns">
+            <div class="shop-logo col-1">
+                <img src="img/H&M-Logo.svg" alt="Reserved">
+            </div>
+            <div class="order-details col-2">
+                <p class="order-title">Majciochy i inne takie skarpetałki</p>
+                <p class="order-date">09.02.2021</p>
+            </div>   
+            <div class="order-details col-3">
+                <p class="order-price">88,98 PLN</p>
+                <p class="status">w drodze</p>
+            </div>
+            
+        </section>
+
+        <div class="addButton">
+            <span class="btn add-btn">&#xFF0B</span>
+            <p>Dodaj pozycję</p>
+       </div>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
